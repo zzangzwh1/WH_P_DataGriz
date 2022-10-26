@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ICA09_DataGriz(ADO)", "ICA09_DataGriz(ADO)\", "{C826E4CA-CEA3-44D6-BCFE-421BD8317E84}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57925"
+		Debug.AspNetCompiler.PhysicalPath = "ICA09_DataGriz(ADO)\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57925\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57925"
+		Release.AspNetCompiler.PhysicalPath = "ICA09_DataGriz(ADO)\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57925\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57925"
+		SlnRelativePath = "ICA09_DataGriz(ADO)\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C826E4CA-CEA3-44D6-BCFE-421BD8317E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C826E4CA-CEA3-44D6-BCFE-421BD8317E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C27B33F4-F9E6-4455-8F09-94A068944916}
+	EndGlobalSection
+EndGlobal

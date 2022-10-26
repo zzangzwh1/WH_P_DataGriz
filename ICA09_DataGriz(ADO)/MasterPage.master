@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register TagName="Header" TagPrefix="WUC" Src="~/Header.ascx" %>
+<%@ Register TagName="Footer" TagPrefix="WUC" Src="~/Footer.ascx" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>ADO ICA</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/main.css" rel="stylesheet"  type="text/css"/>
+</head>
+<body>
+    <WUC:Header runat="server" />
+
+    <form id="_MasterForm" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="_Main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <WUC:Footer runat="server" />
+</body>
+</html>
